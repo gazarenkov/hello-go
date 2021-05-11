@@ -10,9 +10,9 @@
             "problemMatcher": []
         },
         {
-            "label": "go run",
+            "label": "curl",
             "type": "shell",
-            "command": "go run main.go",
+            "command": "",
             "problemMatcher": []
         }
     ]

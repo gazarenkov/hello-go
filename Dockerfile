@@ -10,5 +10,5 @@ ADD . /hello/
 WORKDIR /hello
 RUN GOOS=linux go build -o bin/hello main.go
 FROM alpine
-COPY --from=builder /xcort/bin/* ./
+COPY --from=builder /x/bin/* ./
 ENTRYPOINT ["/xcstorage"]

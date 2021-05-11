@@ -8,10 +8,10 @@
             "type": "shell",
             "command": "go run main.go",
             "problemMatcher": []
-        }
+        },
         {
-            "label": "echo",
-            "type": "shell",
+            "label": "build",
+            "type": "build",
             "command": "go run main.go",
             "problemMatcher": []
         }

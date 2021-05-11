@@ -9,7 +9,7 @@
           "type": "go",
           "request": "launch",
           "mode": "debug",
-          "program": "/project/main.go"
+          "program": "/home/project/main.go"
       },
     {
       "name": "Launch",

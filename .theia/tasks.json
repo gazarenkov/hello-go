@@ -12,7 +12,7 @@
         {
             "label": "curl",
             "type": "shell",
-            "command": "",
+            "command": "curl ",
             "problemMatcher": []
         }
     ]

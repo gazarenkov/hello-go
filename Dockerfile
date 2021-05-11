@@ -6,8 +6,8 @@ ENTRYPOINT ["/bin/sh", "-c", "--", "while true; do sleep 30; done;"]
 
 FROM golang:1.14-alpine AS builder
 RUN mkdir /hello
-ADD . /xcort/
-WORKDIR /xcort
+ADD . /hello/
+WORKDIR /he
 RUN GOOS=linux go build -o bin/hello main.go
 FROM alpine
 COPY --from=builder /xcort/bin/* ./

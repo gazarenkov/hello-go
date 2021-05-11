@@ -1,2 +1,2 @@
 FROM alpine
-ADD bin
+ADD bin/*

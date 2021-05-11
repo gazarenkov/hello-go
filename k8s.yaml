@@ -7,7 +7,7 @@ spec:
   template:
     spec:
       containers:
-        - name: busybox
+        - name: hello-go
           image: busybox
           args:
             - sleep

@@ -11,7 +11,7 @@
         },
         {
             "label": "go run",
-            "type": "process",
+            "type": "shell",
             "command": "go run main.go",
             "problemMatcher": []
         }

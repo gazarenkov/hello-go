@@ -10,7 +10,7 @@
             "problemMatcher": []
         },
         {
-            "label": "build",
+            "label": "go run",
             "type": "process",
             "command": "go run main.go",
             "problemMatcher": []

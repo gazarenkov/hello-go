@@ -3,6 +3,9 @@ kind: Deployment
 metadata:
   name: hello-go
 spec:
+  selector:
+    matchLabels:
+      run: my
   template:
     metadata:
       labels:

@@ -9,6 +9,3 @@ spec:
       containers:
         - name: hello-go
           image: hello-go
-          args:
-            - sleep
-            - "1000000"

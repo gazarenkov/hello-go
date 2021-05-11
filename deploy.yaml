@@ -9,7 +9,7 @@ spec:
   template:
     metadata:
       labels:
-        : hello
+        app: hello
     spec:
       containers:
         - name: hello-go

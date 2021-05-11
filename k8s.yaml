@@ -1,14 +1,14 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello
+  name: hello-go
 spec:
   replicas: 1
   template:
     spec:
       containers:
         - name: hello-go
-          image: busybox
+          image: hello-go
           args:
             - sleep
             - "1000000"

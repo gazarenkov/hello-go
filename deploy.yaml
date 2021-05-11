@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      run: my
+      run: hello
   template:
     metadata:
       labels:

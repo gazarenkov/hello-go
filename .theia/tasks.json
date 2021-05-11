@@ -12,7 +12,7 @@
         {
             "label": "curl",
             "type": "shell",
-            "command": "curl localhost:8080/",
+            "command": "curl localhost:8080/Gena",
             "problemMatcher": []
         }
     ]

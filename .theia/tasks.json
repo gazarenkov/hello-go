@@ -18,7 +18,7 @@
        {
             "label": "build",
             "type": "shell",
-            "command": "go ${defaultBuildTask},
+            "command": "${defaultBuildTask},
             // "problemMatcher": []
         }
     ]

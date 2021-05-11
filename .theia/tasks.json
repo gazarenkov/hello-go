@@ -11,7 +11,7 @@
         },
         {
             "label": "build",
-            "type": "build",
+            "type": "process",
             "command": "go run main.go",
             "problemMatcher": []
         }

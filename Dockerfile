@@ -1,3 +1,3 @@
 FROM alpine
-ADD bin/*
+ADD bin/hello
 ENTRYPOINT ["/hello"]

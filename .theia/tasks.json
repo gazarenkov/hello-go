@@ -16,8 +16,8 @@
             "problemMatcher": []
         },
        {
-            "label": "build"
-            // "type": "shell",
+            "label": "build",
+            "type": "shell",
             // "command": "curl localhost:8080/Gena",
             // "problemMatcher": []
         }

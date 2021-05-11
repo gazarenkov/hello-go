@@ -19,7 +19,7 @@
             "label": "build",
             "type": "shell",
             "command": "${defaultBuildTask},
-            // "problemMatcher": []
+            "problemMatcher": []
         }
     ]
 }

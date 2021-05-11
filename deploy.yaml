@@ -5,11 +5,11 @@ metadata:
 spec:
   selector:
     matchLabels:
-      run: hello
+      app: hello
   template:
     metadata:
       labels:
-        run: hello
+        : hello
     spec:
       containers:
         - name: hello-go

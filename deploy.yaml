@@ -4,6 +4,9 @@ metadata:
   name: hello-go
 spec:
   template:
+    metadata:
+      labels:
+        run: my-n
     spec:
       containers:
         - name: hello-go

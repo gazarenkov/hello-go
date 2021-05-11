@@ -9,7 +9,7 @@
             "command": "go run main.go",
             "problemMatcher": []
         }
-               {
+        {
             "label": "echo",
             "type": "shell",
             "command": "go run main.go",

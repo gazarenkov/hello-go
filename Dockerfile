@@ -5,7 +5,7 @@ ENTRYPOINT ["/bin/sh", "-c", "--", "while true; do sleep 30; done;"]
 
 
 FROM golang:1.14-alpine AS builder
-RUN 
+RUN mkdir /xcort
 ADD . /xcort/
 WORKDIR /xcort
 RUN GOOS=linux go build -o bin/xcstorage main.go

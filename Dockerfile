@@ -1,7 +1,3 @@
-#FROM alpine
-#ADD bin/hello .
-# ENTRYPOINT ["/hello"]
-#ENTRYPOINT ["/bin/sh", "-c", "--", "while true; do sleep 30; done;"]
 FROM golang:1.14-alpine AS builder
 RUN mkdir /hello
 ADD . /hello/

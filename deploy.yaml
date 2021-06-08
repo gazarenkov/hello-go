@@ -22,7 +22,7 @@ kind: Service
 metadata:
   name: hello-external
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: hello
   ports:

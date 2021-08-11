@@ -17,6 +17,13 @@
       <option value="$PROJECT_DIR$/main.go" />
     </changedPaths>
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
@@ -35,9 +42,8 @@
     </panes>
   </component>
   <component name="ToolWindowManager">
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24590164" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Commit" order="3" />
@@ -62,6 +68,12 @@
     </layout>
   </component>
   <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" />
+  <component name="WindowStateProjectService">
+    <state x="689" y="299" key="SettingsEditor" timestamp="1628697497262">
+      <screen x="496" y="270" width="1388" height="798" />
+    </state>
+    <state x="689" y="299" key="SettingsEditor/496.270.1388.798@496.270.1388.798" timestamp="1628697497262" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">

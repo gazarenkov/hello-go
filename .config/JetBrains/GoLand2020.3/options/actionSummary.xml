@@ -1,10 +1,31 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="EditorBackSpace">
+      <i c="6" l="1628697234154" />
+    </e>
+    <e n="EditorDown">
+      <i c="2" l="1628697208318" />
+    </e>
     <e n="EditorEnter">
-      <i c="1" l="1628697005684" />
+      <i c="5" l="1628697228472" />
+    </e>
+    <e n="EditorLeft">
+      <i c="16" l="1628697229649" />
+    </e>
+    <e n="EditorRight">
+      <i c="9" l="1628697233194" />
+    </e>
+    <e n="EditorUp">
+      <i c="2" l="1628697210301" />
     </e>
     <e n="SaveAll">
       <i c="1" l="1628697154947" />
+    </e>
+    <e n="ShowSettings">
+      <i c="3" l="1628697438035" />
+    </e>
+    <e n="TemplateProjectProperties">
+      <i c="1" l="1628697353635" />
     </e>
     <e n="WelcomeScreen.OpenDirectoryProject">
       <i c="1" l="1628696981941" />

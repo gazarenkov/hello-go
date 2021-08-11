@@ -7,11 +7,17 @@
             <ProjectPluginTrackerState />
           </value>
         </entry>
+        <entry key="Default (Template) Project">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
   <component name="PropertiesComponent">
     <property name="EXPORTABILITY_SORTER.file.structure.state" value="true" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
     <property name="LayoutCode.codeCleanup" value="true" />
     <property name="LayoutCode.optimizeImports" value="true" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />

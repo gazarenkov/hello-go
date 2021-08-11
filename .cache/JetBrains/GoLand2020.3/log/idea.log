@@ -2640,3 +2640,6 @@ com.intellij.openapi.vcs.VcsException: failed to read object c6b5ae17ecd4c4f9438
 	at java.base/java.lang.Thread.run(Thread.java:834)
 2021-08-11 15:54:38,259 [ 306921]   INFO - llij.ide.gdpr.EndUserAgreement - eua: /home/projector-user/.local/share/JetBrains/PrivacyPolicy/eua.cached 
 2021-08-11 15:55:53,646 [ 382308]   WARN - ConfigurableExtensionPointUtil - use other group instead of unexpected one: preferences.editor 
+2021-08-11 15:56:51,282 [ 439944]   INFO -                         STDOUT - [INFO] :: ProjectorServer :: 172.17.0.1 connected. 
+2021-08-11 15:56:52,005 [ 440667]   INFO -                         STDOUT - [DEBUG] :: IdeState :: Starting attempts to set keymap to match user's OS (MAC) 
+2021-08-11 15:56:52,005 [ 440667]   INFO -                         STDOUT - [DEBUG] :: IdeState :: "set keymap to match user's OS (MAC)" is done 

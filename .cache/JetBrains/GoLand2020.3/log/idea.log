@@ -4837,3 +4837,4 @@ com.intellij.openapi.vcs.VcsException: failed to read object f96a5f34343b627f5ed
 	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 2021-08-11 16:25:35,991 [ 307180]   INFO - llij.ide.gdpr.EndUserAgreement - eua: /home/projector-user/.local/share/JetBrains/PrivacyPolicy/eua.cached 
+2021-08-11 16:27:17,603 [ 408792]   INFO - .script.IdeScriptEngineManager - javax.script.ScriptEngineManager initialized in 783 ms 

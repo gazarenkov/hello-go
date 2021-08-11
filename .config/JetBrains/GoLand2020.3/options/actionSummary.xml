@@ -1,5 +1,8 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="ChooseRunConfiguration">
+      <i c="1" l="1628699039912" />
+    </e>
     <e n="EditorBackSpace">
       <i c="14" l="1628697791096" />
     </e>
@@ -24,17 +27,23 @@
     <e n="EditorUp">
       <i c="4" l="1628697670754" />
     </e>
+    <e n="LocalHistory.ShowHistory">
+      <i c="1" l="1628699104642" />
+    </e>
     <e n="SaveAll">
       <i c="2" l="1628698049434" />
     </e>
     <e n="ShowSettings">
-      <i c="4" l="1628697772126" />
+      <i c="7" l="1628699270316" />
     </e>
     <e n="TemplateProjectProperties">
       <i c="1" l="1628697353635" />
     </e>
     <e n="WelcomeScreen.OpenDirectoryProject">
       <i c="1" l="1628696981941" />
+    </e>
+    <e n="com.goide.sdk.download.GoDownloadSdkAction">
+      <i c="1" l="1628699276003" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
       <i c="5" l="1628698015098" />

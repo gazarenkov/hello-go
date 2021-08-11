@@ -17,13 +17,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="EXPORTABILITY_SORTER.file.structure.state" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="FileTemplates.SelectedTemplate" value="HTML File" />
     <property name="LayoutCode.codeCleanup" value="true" />
     <property name="LayoutCode.optimizeImports" value="true" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
     <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="300" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.1" value="800" />
     <property name="experimentalFeature.terminal.shell.command.handling" value="false" />
     <property name="file.chooser.recent.files" value="$USER_HOME$" />
+    <property name="go.download.sdk.last.target.path" value="$USER_HOME$/sdk" />
     <property name="go.enabled.exportability.sorter" value="true" />
     <property name="go.init.cfg.2" value="true" />
     <property name="go.init.cfg.line.markers" value="true" />

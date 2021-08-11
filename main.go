@@ -13,6 +13,6 @@ func main() {
 
 // HelloServer ..
 func HelloServer(w http.ResponseWriter, r *http.Request) {
-	// hello from GoLand!
+	// hello from GoLand!!!!
     fmt.Fprintf(w, "Hello, %s!", r.URL.Path[1:])
 }

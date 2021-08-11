@@ -4110,3 +4110,31 @@ com.intellij.openapi.vcs.VcsException: failed to read object a14a2c01af30302695b
 	at java.base/java.lang.Thread.run(Thread.java:834)
 2021-08-11 16:15:32,616 [  71845]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 1973ms; general responsiveness: ok; EDT responsiveness: ok 
 2021-08-11 16:15:32,617 [  71846]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 0 to update, calculated in 0ms 
+2021-08-11 16:15:38,159 [  77388]   INFO - tellij.vcs.log.data.VcsLogData - Username not configured for root file:///home/projector-user 
+2021-08-11 16:15:38,192 [  77421]   INFO - s.log.data.VcsLogRefresherImpl - failed to read object 98d9295358bade338a4f42c55f8510e839cc054d: Permission denied 
+com.intellij.openapi.vcs.VcsException: failed to read object 98d9295358bade338a4f42c55f8510e839cc054d: Permission denied
+	at git4idea.commands.GitCommandResult.throwOnError(GitCommandResult.java:152)
+	at git4idea.history.GitLogUtil.collectMetadata(GitLogUtil.java:177)
+	at git4idea.log.GitLogProvider.readFirstBlock(GitLogProvider.java:104)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$2.each(VcsLogRefresherImpl.java:120)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$ProviderIterator.iterate(VcsLogRefresherImpl.java:393)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl.loadRecentData(VcsLogRefresherImpl.java:126)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl.readFirstBlock(VcsLogRefresherImpl.java:98)
+	at com.intellij.vcs.log.data.VcsLogData$1.run(VcsLogData.java:154)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:962)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcessWithProgressAsync$5(CoreProgressManager.java:472)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$3(ProgressRunner.java:235)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:178)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:658)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:610)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:65)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:165)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$4(ProgressRunner.java:235)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:834)

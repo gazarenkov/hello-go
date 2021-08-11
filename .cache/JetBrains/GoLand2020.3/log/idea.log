@@ -3677,3 +3677,5 @@ java.nio.file.FileSystemException: /home/projector-user/.cache/JetBrains/GoLand2
 2021-08-11 16:14:21,617 [    846]   INFO -        #com.intellij.idea.Main - CPU cores: 1; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@505f6dd1[Running, parallelism = 1, size = 1, active = 0, running = 0, steals = 4, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@49ee4a59 
 2021-08-11 16:14:21,670 [    899]   INFO -        #com.intellij.idea.Main - WM detected: null 
 2021-08-11 16:14:22,260 [   1489]   INFO -        #com.intellij.idea.Main - Importing configs to /home/projector-user/.config/JetBrains/GoLand2020.3 
+2021-08-11 16:14:55,033 [  34262]   INFO -                         STDOUT - [INFO] :: ProjectorServer :: 172.17.0.1 connected. 
+2021-08-11 16:14:55,797 [  35026]   INFO -                         STDOUT - [DEBUG] :: IdeState :: Starting attempts to set keymap to match user's OS (MAC) 

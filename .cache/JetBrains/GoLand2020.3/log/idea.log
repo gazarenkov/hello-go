@@ -19,3 +19,5 @@
 2021-08-11 15:19:51,731 [    542]   INFO -                         STDERR - WARNING: Prefs file removed in background /home/projector-user/.java/.userPrefs/prefs.xml 
 2021-08-11 15:19:51,907 [    718]   INFO -        #com.intellij.idea.Main - CPU cores: 1; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@4cfdf4f8[Running, parallelism = 1, size = 1, active = 0, running = 0, steals = 1, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@3d39bc01 
 2021-08-11 15:19:51,970 [    781]   INFO -        #com.intellij.idea.Main - WM detected: null 
+2021-08-11 15:22:02,028 [ 130839]   INFO -                         STDOUT - [INFO] :: ProjectorServer :: 172.17.0.1 connected. 
+2021-08-11 15:22:02,860 [ 131671]   INFO -                         STDOUT - [DEBUG] :: IdeState :: Starting attempts to set keymap to match user's OS (MAC) 

@@ -1,7 +1,7 @@
 <application>
   <component name="ActionsLocalSummary">
     <e n="EditorBackSpace">
-      <i c="8" l="1628697664273" />
+      <i c="14" l="1628697791096" />
     </e>
     <e n="EditorCopy">
       <i c="1" l="1628697676665" />
@@ -25,7 +25,7 @@
       <i c="4" l="1628697670754" />
     </e>
     <e n="SaveAll">
-      <i c="1" l="1628697154947" />
+      <i c="2" l="1628698049434" />
     </e>
     <e n="ShowSettings">
       <i c="4" l="1628697772126" />
@@ -37,7 +37,7 @@
       <i c="1" l="1628696981941" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="3" l="1628697682503" />
+      <i c="5" l="1628698015098" />
     </e>
   </component>
 </application>

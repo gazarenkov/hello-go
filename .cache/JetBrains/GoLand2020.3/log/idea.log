@@ -4656,3 +4656,6 @@ com.intellij.openapi.vcs.VcsException: failed to read object 757ab5a3d0001ac4b82
 	at java.base/java.security.AccessController.doPrivileged(Native Method)
 	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-08-11 16:21:47,068 [  78257]   INFO -                         STDOUT - [INFO] :: ProjectorServer :: 172.17.0.1 connected. 
+2021-08-11 16:21:47,979 [  79168]   INFO -                         STDOUT - [DEBUG] :: IdeState :: Starting attempts to set keymap to match user's OS (MAC) 
+2021-08-11 16:21:47,980 [  79169]   INFO -                         STDOUT - [DEBUG] :: IdeState :: "set keymap to match user's OS (MAC)" is done 

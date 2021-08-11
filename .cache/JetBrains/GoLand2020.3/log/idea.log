@@ -1,0 +1,21 @@
+2021-08-11 15:19:51,189 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-08-11 15:19:51,245 [     56]   INFO - llij.ide.gdpr.EndUserAgreement - eua: /home/projector-user/.local/share/JetBrains/PrivacyPolicy/eua.cached 
+2021-08-11 15:19:51,298 [    109]   INFO -        #com.intellij.idea.Main - IDE: GoLand (build #GO-203.8084.22, 22 Apr 2021 05:40) 
+2021-08-11 15:19:51,299 [    110]   INFO -        #com.intellij.idea.Main - OS: Linux (4.19.171, amd64) 
+2021-08-11 15:19:51,323 [    134]   INFO -        #com.intellij.idea.Main - JRE: 11.0.10+8-b1145.96 (JetBrains s.r.o.) 
+2021-08-11 15:19:51,323 [    134]   INFO -        #com.intellij.idea.Main - JVM: 11.0.10+8-b1145.96 (OpenJDK 64-Bit Server VM) 
+2021-08-11 15:19:51,338 [    149]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=512m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -ea -Dsun.io.useCanonCaches=false -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/projector-user/java_error_in_goland_%p.log -XX:HeapDumpPath=/home/projector-user/java_error_in_goland_.hprof -Didea.vendor.name=JetBrains -Didea.paths.selector=GoLand2020.3 -Djb.vmOptionsFile=/projector/ide/bin/goland64.vmoptions -Didea.platform.prefix=GoLand -Dorg.jetbrains.projector.server.classToLaunch=com.intellij.idea.Main 
+2021-08-11 15:19:51,339 [    150]   INFO -        #com.intellij.idea.Main - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib 
+2021-08-11 15:19:51,339 [    150]   INFO -        #com.intellij.idea.Main - boot library path: /projector/ide/jbr/lib 
+2021-08-11 15:19:51,484 [    295]   INFO -        #com.intellij.idea.Main - locale=en_US JNU=ANSI_X3.4-1968 file.encoding=ANSI_X3.4-1968
+  idea.config.path=/home/projector-user/.config/JetBrains/GoLand2020.3
+  idea.system.path=/home/projector-user/.cache/JetBrains/GoLand2020.3
+  idea.plugins.path=/home/projector-user/.local/share/JetBrains/GoLand2020.3
+  idea.log.path=/home/projector-user/.cache/JetBrains/GoLand2020.3/log 
+2021-08-11 15:19:51,680 [    491]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 196 ms 
+2021-08-11 15:19:51,702 [    513]   INFO -                         STDERR - Aug 11, 2021 3:19:51 PM java.util.prefs.FileSystemPreferences$1 run 
+2021-08-11 15:19:51,712 [    523]   INFO -                         STDERR - INFO: Created user preferences directory. 
+2021-08-11 15:19:51,725 [    536]   INFO -                         STDERR - Aug 11, 2021 3:19:51 PM java.util.prefs.FileSystemPreferences$6 run 
+2021-08-11 15:19:51,731 [    542]   INFO -                         STDERR - WARNING: Prefs file removed in background /home/projector-user/.java/.userPrefs/prefs.xml 
+2021-08-11 15:19:51,907 [    718]   INFO -        #com.intellij.idea.Main - CPU cores: 1; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@4cfdf4f8[Running, parallelism = 1, size = 1, active = 0, running = 0, steals = 1, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@3d39bc01 
+2021-08-11 15:19:51,970 [    781]   INFO -        #com.intellij.idea.Main - WM detected: null 

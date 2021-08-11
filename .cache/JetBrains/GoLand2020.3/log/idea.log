@@ -2639,3 +2639,4 @@ com.intellij.openapi.vcs.VcsException: failed to read object c6b5ae17ecd4c4f9438
 	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 2021-08-11 15:54:38,259 [ 306921]   INFO - llij.ide.gdpr.EndUserAgreement - eua: /home/projector-user/.local/share/JetBrains/PrivacyPolicy/eua.cached 
+2021-08-11 15:55:53,646 [ 382308]   WARN - ConfigurableExtensionPointUtil - use other group instead of unexpected one: preferences.editor 

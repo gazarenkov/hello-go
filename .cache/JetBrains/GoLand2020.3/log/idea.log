@@ -178,3 +178,129 @@ java.lang.ClassNotFoundException: org.intellij.plugins.markdown.ui.preview.javaf
 2021-08-11 15:22:21,121 [ 149932]   INFO - leBasedIndexDataInitialization - Initialization done: 2662 
 2021-08-11 15:22:21,164 [ 149975]   INFO - tellij.psi.stubs.StubIndexImpl - Following stub indices will be built:dom.namespaceKey(v = 1),dom.elementClass(v = 0),Css.ampersand.selector(v = 2),Css.class(v = 2),Css.id(v = 2),Css.attr(v = 2),Css.custom.property(v = 2),Css.custom.mixin(v = 2),markdown.header(v = 2),js.qualified.shortName(v = 4),js.element.qualifiedName(v = 3),JS.global.qualified.elements(v = 3),ts.external.module.index(v = 3),JS.class.super(v = 5),JS.class.implements(v = 3),JS.custom.stub.index(v = 2),js.symbol.index2(v = 6),js.typedef.index2(v = 2),js.generics.index(v = 2),JS.base.types.index(v = 3),js.class.index2(v = 3),js.namespace.index(v = 2),js.local.namespace.members.index(v = 2),JS.subclass.stub.index(v = 2),js.symbol.qualified.names.index(v = 1),amd.baseUrl.index(v = 2),amd.requirePaths.index(v = 2),js.global.symbol.index(v = 2),js.exported.index(v = 2),es6.exported.index(v = 2),js.imported.bindings.index(v = 2),es6.assignment.index(v = 2),ts.local.classes(v = 2),ts.embedded.content.index(v = 2),js.nonglobal.symbol.index(v = 2),js.lazy.packages(v = 2),js.gcl.modules(v = 2),js.doc.modules(v = 2),js.amd.modules(v = 2),sql.table.shortName(v = 3),sql.column.name(v = 3),sql.names(v = 21),go.all.name(v = 72),go.all.private.name(v = 72),go.function(v = 75),go.type.name(v = 74),go.packages(v = 74),go.method(v = 74),go.method.fingerprint(v = 73),go.spec.fingerprint(v = 73),go.method.spec.inheritance(v = 73),go.typeSpec.redeclared(v = 72),go.type.spec.inheritance(v = 72) 
 2021-08-11 15:22:21,164 [ 149975]   INFO - exImpl$StubIndexInitialization - Initialization done: 43 
+2021-08-11 15:22:40,008 [ 168819]   INFO - rationStore.ComponentStoreImpl - Saving default projectDaemonCodeAnalyzer took 13 ms 
+2021-08-11 15:22:40,095 [ 168906]   INFO - BridgeProjectLifecycleListener - Using workspace model to open project 
+2021-08-11 15:22:40,319 [ 169130]   INFO - rnal.statistic.DeviceIdManager - Generating new Device ID 
+2021-08-11 15:22:40,319 [ 169130]   INFO - eventLog.EventLogConfiguration - Generating salt for the device 
+2021-08-11 15:22:40,333 [ 169144]   INFO - on.JpsProjectModelSynchronizer - Workspace model loaded without cache. Loading real project state into workspace model. Thread[ApplicationImpl pooled thread 11,4,Idea Thread Group] 
+2021-08-11 15:22:40,476 [ 169287]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2021-08-11 15:22:41,635 [ 170446]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2021-08-11 15:22:41,645 [ 170456]   INFO - .TypeScriptLibraryProviderImpl - Start refreshing typescript libraries 
+2021-08-11 15:22:41,943 [ 170754]   INFO - .TypeScriptLibraryProviderImpl - End refreshing typescript libraries 
+2021-08-11 15:22:41,957 [ 170768]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 5 millis (read time: 2) 
+2021-08-11 15:22:41,981 [ 170792]   INFO - oudConfig.StatusBarInfoManager - === StatusBar ignored === 
+2021-08-11 15:22:42,007 [ 170818]   INFO - .OnDiskSharedIndexChunkLocator - Scanning /home/projector-user/.cache/JetBrains/GoLand2020.3/shared-index for shared indexes... 
+2021-08-11 15:22:42,215 [ 171026]   INFO - redIndexChunkConfigurationImpl - Chunk bundled-js-predefined-ffdd448c697d-9d1e29453470-JavaScript-GO-203.8084.22 is registered for project 'projector-user: matching: (fb=27, stub=42), incompatible: (fb=0, stub=0), unknown: (fb=9, stub=9),  
+2021-08-11 15:22:42,316 [ 171127]   INFO - redIndexChunkConfigurationImpl - Chunk bundled-gosdk-2d1e452ab11e-0898f468cf05-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-203.8084.22 is registered for project 'projector-user: matching: (fb=30, stub=53), incompatible: (fb=0, stub=0), unknown: (fb=9, stub=9),  
+2021-08-11 15:22:42,316 [ 171127]   INFO - SharedIndexPostStartupActivity - Attached 2 pre-built shared indexes: bundled-js-predefined-ffdd448c697d-9d1e29453470-JavaScript-GO-203.8084.22, bundled-gosdk-2d1e452ab11e-0898f468cf05-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-203.8084.22 
+2021-08-11 15:22:42,320 [ 171131]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/projector-user] 
+2021-08-11 15:22:42,333 [ 171144]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.grunt.GruntfileManager 
+2021-08-11 15:22:42,338 [ 171149]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.gulp.GulpfileManager 
+2021-08-11 15:22:42,346 [ 171157]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.npm.PackageJsonBuildFileManager 
+2021-08-11 15:22:42,393 [ 171204]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2021-08-11 15:22:42,401 [ 171212]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2021-08-11 15:22:42,433 [ 171244]   INFO -  #git4idea.commands.GitHandler - git version 2.20.1 
+2021-08-11 15:22:42,448 [ 171259]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 748ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish 
+2021-08-11 15:22:42,467 [ 171278]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git: 2.20.1.0 (UNIX) 
+2021-08-11 15:22:42,791 [ 171602]   INFO - .changes.ChangeListManagerImpl - failed to read object 169354e45623c2e8599cd003f544c49ba77a3279: Permission denied 
+com.intellij.openapi.vcs.VcsException: failed to read object 169354e45623c2e8599cd003f544c49ba77a3279: Permission denied
+	at git4idea.commands.GitCommandResult.throwOnError(GitCommandResult.java:152)
+	at git4idea.commands.GitCommandResult.getOutputOrThrow(GitCommandResult.java:141)
+	at git4idea.index.GitIndexStatusUtilKt.getStatus(GitIndexStatusUtil.kt:69)
+	at git4idea.status.GitStagingAreaHolder.refresh(GitStagingAreaHolder.java:104)
+	at git4idea.status.GitChangeProvider.getChanges(GitChangeProvider.java:70)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.actualUpdate(ChangeListManagerImpl.java:685)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.iterateScopes(ChangeListManagerImpl.java:603)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.lambda$updateImmediately$11(ChangeListManagerImpl.java:508)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:658)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:610)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:65)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.lambda$updateImmediately$14(ChangeListManagerImpl.java:507)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.lambda$runUnderDisposeAwareIndicator$11(BackgroundTaskUtil.java:231)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:178)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:658)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:610)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:65)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:165)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:254)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:230)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.updateImmediately(ChangeListManagerImpl.java:462)
+	at com.intellij.openapi.vcs.changes.UpdateRequestsQueue$MyRunnable.run(UpdateRequestsQueue.java:219)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl$MyLoggingRunnable.run(ChangeListManagerImpl.java:1675)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:220)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:216)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:27)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:195)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:184)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-08-11 15:22:43,125 [ 171936]   WARN - positoryIgnoredFilesHolderBase - Cannot request ignored:  
+com.intellij.openapi.vcs.VcsException: failed to read object 169354e45623c2e8599cd003f544c49ba77a3279: Permission denied
+	at git4idea.commands.GitCommandResult.throwOnError(GitCommandResult.java:152)
+	at git4idea.commands.GitCommandResult.getOutputOrThrow(GitCommandResult.java:141)
+	at git4idea.commands.GitImpl.ignoredFilePathsNoChunk(GitImpl.java:109)
+	at git4idea.commands.GitImpl.ignoredFilePaths(GitImpl.java:81)
+	at git4idea.ignore.GitRepositoryIgnoredFilesHolder.requestIgnored(GitRepositoryIgnoredFilesHolder.kt:21)
+	at git4idea.ignore.GitRepositoryIgnoredFilesHolder.requestIgnored(GitRepositoryIgnoredFilesHolder.kt:13)
+	at com.intellij.dvcs.ignore.VcsRepositoryIgnoredFilesHolderBase.tryRequestIgnored(VcsRepositoryIgnoredFilesHolderBase.kt:124)
+	at com.intellij.dvcs.ignore.VcsRepositoryIgnoredFilesHolderBase.tryRequestIgnored$default(VcsRepositoryIgnoredFilesHolderBase.kt:122)
+	at com.intellij.dvcs.ignore.VcsRepositoryIgnoredFilesHolderBase.doRescan(VcsRepositoryIgnoredFilesHolderBase.kt:217)
+	at com.intellij.dvcs.ignore.VcsRepositoryIgnoredFilesHolderBase.access$doRescan(VcsRepositoryIgnoredFilesHolderBase.kt:36)
+	at com.intellij.dvcs.ignore.VcsRepositoryIgnoredFilesHolderBase$startRescan$1.invoke(VcsRepositoryIgnoredFilesHolderBase.kt:142)
+	at com.intellij.dvcs.ignore.VcsRepositoryIgnoredFilesHolderBase$startRescan$1.invoke(VcsRepositoryIgnoredFilesHolderBase.kt:36)
+	at com.intellij.dvcs.ignore.VcsRepositoryIgnoredFilesHolderBase$queueIgnoreUpdate$1.invoke(VcsRepositoryIgnoredFilesHolderBase.kt:176)
+	at com.intellij.dvcs.ignore.VcsRepositoryIgnoredFilesHolderBase$queueIgnoreUpdate$1.invoke(VcsRepositoryIgnoredFilesHolderBase.kt:36)
+	at com.intellij.dvcs.ignore.VcsRepositoryIgnoredFilesHolderBase$MyUpdate.doRun(VcsRepositoryIgnoredFilesHolderBase.kt:195)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:178)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:658)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:610)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:65)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:165)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:254)
+	at com.intellij.util.ui.update.DisposableUpdate.run(DisposableUpdate.java:19)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:333)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:323)
+	at com.intellij.util.ui.update.MergingUpdateQueue.lambda$flush$1(MergingUpdateQueue.java:273)
+	at com.intellij.util.ui.update.MergingUpdateQueue.flush(MergingUpdateQueue.java:287)
+	at com.intellij.util.ui.update.MergingUpdateQueue.run(MergingUpdateQueue.java:242)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:238)
+	at com.intellij.util.Alarm$Request.runSafely(Alarm.java:376)
+	at com.intellij.util.Alarm$Request.run(Alarm.java:362)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:220)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:216)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:27)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:195)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:184)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-08-11 15:22:43,500 [ 172311]   INFO - .diagnostic.PerformanceWatcher - Pushing Go no limit property to 0 roots took 2ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-11 15:22:43,560 [ 172371]   INFO - llij.database.util.SqlDialects - SQL dialects initialized in 1 ms 
+2021-08-11 15:22:44,169 [ 172980]   INFO - cript.buildTools.base.JsbtUtil - Iterating over content roots for module projector-user 
+2021-08-11 15:22:44,169 [ 172980]   INFO - cript.buildTools.base.JsbtUtil - Detecting in content root /home/projector-user 
+2021-08-11 15:22:44,170 [ 172981]   INFO - cript.buildTools.base.JsbtUtil - Detecting by children: [file:///home/projector-user/.git, file:///home/projector-user/.java, file:///home/projector-user/.cache, file:///home/projector-user/.local, file:///home/projector-user/.theia, file:///home/projector-user/.config, file:///home/projector-user/main.go, file:///home/projector-user/Dockerfile, file:///home/projector-user/deploy.yaml] 
+2021-08-11 15:22:44,173 [ 172984]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 4097 ms 
+2021-08-11 15:22:44,170 [ 172981]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.grunt.GruntService 
+2021-08-11 15:22:44,174 [ 172985]   INFO - cript.buildTools.base.JsbtUtil - Iterating over content roots for module projector-user 
+2021-08-11 15:22:44,175 [ 172986]   INFO - cript.buildTools.base.JsbtUtil - Detecting in content root /home/projector-user 
+2021-08-11 15:22:44,175 [ 172986]   INFO - cript.buildTools.base.JsbtUtil - Detecting by children: [file:///home/projector-user/.git, file:///home/projector-user/.java, file:///home/projector-user/.cache, file:///home/projector-user/.local, file:///home/projector-user/.theia, file:///home/projector-user/.config, file:///home/projector-user/main.go, file:///home/projector-user/Dockerfile, file:///home/projector-user/deploy.yaml] 
+2021-08-11 15:22:44,175 [ 172986]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.gulp.GulpService 
+2021-08-11 15:22:44,176 [ 172987]   INFO - cript.buildTools.base.JsbtUtil - Iterating over content roots for module projector-user 
+2021-08-11 15:22:44,176 [ 172987]   INFO - cript.buildTools.base.JsbtUtil - Detecting in content root /home/projector-user 
+2021-08-11 15:22:44,176 [ 172987]   INFO - pm.PackageJsonBuildFileManager - Found package.json in /home/projector-user: null 
+2021-08-11 15:22:44,176 [ 172987]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.npm.NpmScriptsService 

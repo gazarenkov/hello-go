@@ -605,3 +605,4 @@ com.intellij.openapi.vcs.VcsException: failed to read object b7fbd0bba760d0327ce
 	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 2021-08-11 15:23:26,908 [ 215719]   INFO - leTypes.UpdateComponentWatcher - updated: https://plugins.jetbrains.com/plugins/list?pluginId=org.jetbrains.plugins.go&build=GO-203.8084.22&pluginVersion=203.8084.22&os=Linux+4.19.171&uuid=ebb6ca43-064a-4a00-a70d-3d067fe08e9a 
+2021-08-11 15:27:18,825 [ 447636]   INFO - llij.ide.gdpr.EndUserAgreement - eua: /home/projector-user/.local/share/JetBrains/PrivacyPolicy/eua.cached 

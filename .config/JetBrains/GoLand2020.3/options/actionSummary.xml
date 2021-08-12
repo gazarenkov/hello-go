@@ -34,7 +34,7 @@
       <i c="2" l="1628698049434" />
     </e>
     <e n="ShowSettings">
-      <i c="7" l="1628699270316" />
+      <i c="8" l="1628778385196" />
     </e>
     <e n="TemplateProjectProperties">
       <i c="1" l="1628697353635" />
@@ -43,7 +43,7 @@
       <i c="1" l="1628696981941" />
     </e>
     <e n="com.goide.sdk.download.GoDownloadSdkAction">
-      <i c="1" l="1628699276003" />
+      <i c="2" l="1628778391112" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
       <i c="5" l="1628698015098" />

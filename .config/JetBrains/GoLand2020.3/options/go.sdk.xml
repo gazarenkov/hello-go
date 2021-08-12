@@ -2,7 +2,9 @@
   <component name="GoSdkList">
     <sdk-url>
       <set>
+        <option value="" />
         <option value="file://$USER_HOME$/sdk/go1.16.7" />
+        <option value="file://$USER_HOME$/sdk/go1.3.3" />
       </set>
     </sdk-url>
   </component>

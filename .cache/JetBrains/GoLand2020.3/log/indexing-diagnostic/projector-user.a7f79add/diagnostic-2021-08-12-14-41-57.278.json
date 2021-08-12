@@ -1,0 +1,129 @@
+{
+  "appInfo" : {
+    "build" : "203.8084.22",
+    "buildDate" : "Thu, 22 Apr 2021 05:40:33 GMT",
+    "productCode" : "GO",
+    "generated" : "Thu, 12 Aug 2021 14:41:57 GMT",
+    "os" : "Linux 4.19.171",
+    "runtime" : "JetBrains s.r.o. 11.0.10 11.0.10+8-b1145.96"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 777715712,
+    "numberOfProcessors" : 1,
+    "maxNumberOfIndexingThreads" : 4,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "projectIndexingHistory" : {
+    "projectName" : "projector-user",
+    "numberOfFileProviders" : 14,
+    "totalNumberOfFiles" : 1469,
+    "totalNumberOfUpToDateFiles" : 1465,
+    "times" : {
+      "totalUpdatingTime" : "3 s 267 ms",
+      "indexingTime" : "1 s 667 ms",
+      "pushPropertiesTime" : "566 ms",
+      "updatingStart" : "Thu, 12 Aug 2021 14:41:53 GMT",
+      "updatingEnd" : "Thu, 12 Aug 2021 14:41:57 GMT",
+      "wasInterrupted" : false
+    },
+    "numberOfIndexingThreads" : 1,
+    "totalStatsPerFileType" : [ {
+      "fileType" : "JSON",
+      "partOfTotalIndexingTime" : "89.0%",
+      "partOfTotalContentLoadingTime" : "28.4%",
+      "totalNumberOfFiles" : 3,
+      "totalFilesSize" : "126.48 kB",
+      "indexingSpeed" : "578.43 kB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Module 'projector-user'",
+        "numberOfFiles" : 3,
+        "totalFilesSize" : "126.48 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "textmate",
+      "partOfTotalIndexingTime" : "11.0%",
+      "partOfTotalContentLoadingTime" : "71.6%",
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : "858.59 kB",
+      "indexingSpeed" : "31.91 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Module 'projector-user'",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "858.59 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    } ],
+    "totalStatsPerIndexer" : [ {
+      "indexId" : "Trigram.Index",
+      "partOfTotalIndexingTime" : "57.8%",
+      "totalNumberOfFiles" : 4,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "985.08 kB",
+      "indexingSpeed" : "6.94 MB/s"
+    }, {
+      "indexId" : "json.file.root.values",
+      "partOfTotalIndexingTime" : "32.8%",
+      "totalNumberOfFiles" : 3,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "126.48 kB",
+      "indexingSpeed" : "1.57 MB/s"
+    }, {
+      "indexId" : "TodoIndex",
+      "partOfTotalIndexingTime" : "5.4%",
+      "totalNumberOfFiles" : 3,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "863.91 kB",
+      "indexingSpeed" : "65.14 MB/s"
+    }, {
+      "indexId" : "IdIndex",
+      "partOfTotalIndexingTime" : "4.0%",
+      "totalNumberOfFiles" : 3,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "863.91 kB",
+      "indexingSpeed" : "89.04 MB/s"
+    } ],
+    "fileProviderStatistics" : [ {
+      "providerName" : "Module 'projector-user'",
+      "totalNumberOfFiles" : 4,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingTime" : "1 s 649 ms",
+      "statsPerFileType" : [ {
+        "fileType" : "JSON",
+        "numberOfFiles" : 3,
+        "totalFilesSize" : "126.48 kB",
+        "partOfTotalIndexingTime" : "89.0%",
+        "partOfTotalContentLoadingTime" : "28.4%"
+      }, {
+        "fileType" : "textmate",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "858.59 kB",
+        "partOfTotalIndexingTime" : "11.0%",
+        "partOfTotalContentLoadingTime" : "71.6%"
+      } ],
+      "statsPerIndexer" : [ {
+        "indexId" : "Trigram.Index",
+        "numberOfFiles" : 4,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "57.8%"
+      }, {
+        "indexId" : "json.file.root.values",
+        "numberOfFiles" : 3,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "32.8%"
+      }, {
+        "indexId" : "TodoIndex",
+        "numberOfFiles" : 3,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "5.4%"
+      }, {
+        "indexId" : "IdIndex",
+        "numberOfFiles" : 3,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "4.0%"
+      } ],
+      "fastIndexers" : [ ]
+    } ]
+  }
+}

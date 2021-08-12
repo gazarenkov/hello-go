@@ -1,0 +1,342 @@
+{
+  "appInfo" : {
+    "build" : "203.8084.22",
+    "buildDate" : "Thu, 22 Apr 2021 05:40:33 GMT",
+    "productCode" : "GO",
+    "generated" : "Thu, 12 Aug 2021 14:41:59 GMT",
+    "os" : "Linux 4.19.171",
+    "runtime" : "JetBrains s.r.o. 11.0.10 11.0.10+8-b1145.96"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 777715712,
+    "numberOfProcessors" : 1,
+    "maxNumberOfIndexingThreads" : 4,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "projectIndexingHistory" : {
+    "projectName" : "projector-user",
+    "numberOfFileProviders" : 1,
+    "totalNumberOfFiles" : 107,
+    "totalNumberOfUpToDateFiles" : 0,
+    "times" : {
+      "totalUpdatingTime" : "1 s 270 ms",
+      "indexingTime" : "1 s 270 ms",
+      "updatingStart" : "Thu, 12 Aug 2021 14:41:57 GMT",
+      "updatingEnd" : "Thu, 12 Aug 2021 14:41:58 GMT",
+      "wasInterrupted" : false
+    },
+    "numberOfIndexingThreads" : 0,
+    "totalStatsPerFileType" : [ {
+      "fileType" : "XML",
+      "partOfTotalIndexingTime" : "36.8%",
+      "partOfTotalContentLoadingTime" : "34.6%",
+      "totalNumberOfFiles" : 36,
+      "totalFilesSize" : "985.46 kB",
+      "indexingSpeed" : "3.63 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 36,
+        "totalFilesSize" : "985.46 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "textmate",
+      "partOfTotalIndexingTime" : "24.1%",
+      "partOfTotalContentLoadingTime" : "2.7%",
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : "924.41 kB",
+      "indexingSpeed" : "5.21 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "924.41 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "JSON",
+      "partOfTotalIndexingTime" : "19.9%",
+      "partOfTotalContentLoadingTime" : "53.5%",
+      "totalNumberOfFiles" : 32,
+      "totalFilesSize" : "2.24 MB",
+      "indexingSpeed" : "15.26 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 32,
+        "totalFilesSize" : "2.24 MB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "Go",
+      "partOfTotalIndexingTime" : "6.9%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : "315 B",
+      "indexingSpeed" : "6.21 kB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "315 B",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "YAML",
+      "partOfTotalIndexingTime" : "5.4%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : "483 B",
+      "indexingSpeed" : "12.04 kB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "483 B",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "PLAIN_TEXT",
+      "partOfTotalIndexingTime" : "3.5%",
+      "partOfTotalContentLoadingTime" : "5.1%",
+      "totalNumberOfFiles" : 27,
+      "totalFilesSize" : "13.08 kB",
+      "indexingSpeed" : "500.24 kB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 27,
+        "totalFilesSize" : "13.08 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "x86 Plan9 Assembly",
+      "partOfTotalIndexingTime" : "2.9%",
+      "partOfTotalContentLoadingTime" : "2.6%",
+      "totalNumberOfFiles" : 6,
+      "totalFilesSize" : "162 B",
+      "indexingSpeed" : "7.69 kB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 6,
+        "totalFilesSize" : "162 B",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "Dockerfile",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : "195 B",
+      "indexingSpeed" : "62.17 kB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "195 B",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    }, {
+      "fileType" : "Shell Script",
+      "partOfTotalIndexingTime" : "< 1%",
+      "partOfTotalContentLoadingTime" : "< 1%",
+      "totalNumberOfFiles" : 2,
+      "totalFilesSize" : "460 B",
+      "indexingSpeed" : "919.63 kB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "460 B",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    } ],
+    "totalStatsPerIndexer" : [ {
+      "indexId" : "TodoIndex",
+      "partOfTotalIndexingTime" : "22.2%",
+      "totalNumberOfFiles" : 107,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "4.17 MB",
+      "indexingSpeed" : "25.43 MB/s"
+    }, {
+      "indexId" : "Stubs",
+      "partOfTotalIndexingTime" : "16.7%",
+      "totalNumberOfFiles" : 37,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "985.77 kB",
+      "indexingSpeed" : "7.98 MB/s"
+    }, {
+      "indexId" : "json.file.root.values",
+      "partOfTotalIndexingTime" : "14.8%",
+      "totalNumberOfFiles" : 32,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "2.24 MB",
+      "indexingSpeed" : "20.46 MB/s"
+    }, {
+      "indexId" : "Trigram.Index",
+      "partOfTotalIndexingTime" : "12.2%",
+      "totalNumberOfFiles" : 107,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "4.17 MB",
+      "indexingSpeed" : "46.43 MB/s"
+    }, {
+      "indexId" : "fileIncludes",
+      "partOfTotalIndexingTime" : "9.5%",
+      "totalNumberOfFiles" : 36,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "985.46 kB",
+      "indexingSpeed" : "14.02 MB/s"
+    }, {
+      "indexId" : "IdIndex",
+      "partOfTotalIndexingTime" : "8.3%",
+      "totalNumberOfFiles" : 107,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "4.17 MB",
+      "indexingSpeed" : "68.37 MB/s"
+    }, {
+      "indexId" : "DomFileIndex",
+      "partOfTotalIndexingTime" : "7.6%",
+      "totalNumberOfFiles" : 36,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "985.46 kB",
+      "indexingSpeed" : "17.54 MB/s"
+    }, {
+      "indexId" : "yaml.keys.name",
+      "partOfTotalIndexingTime" : "4.9%",
+      "totalNumberOfFiles" : 1,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "483 B",
+      "indexingSpeed" : "13.26 kB/s"
+    }, {
+      "indexId" : "RelaxSymbolIndex",
+      "partOfTotalIndexingTime" : "3.1%",
+      "totalNumberOfFiles" : 36,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "985.46 kB",
+      "indexingSpeed" : "42.54 MB/s"
+    }, {
+      "indexId" : "docker.compose.services",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 1,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "483 B",
+      "indexingSpeed" : "163.47 kB/s"
+    }, {
+      "indexId" : "go.import",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 1,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "315 B",
+      "indexingSpeed" : "384.69 kB/s"
+    }, {
+      "indexId" : "go.imported.directory.names",
+      "partOfTotalIndexingTime" : "< 1%",
+      "totalNumberOfFiles" : 1,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "315 B",
+      "indexingSpeed" : "753.76 kB/s"
+    } ],
+    "fileProviderStatistics" : [ {
+      "providerName" : "Refreshed files",
+      "totalNumberOfFiles" : 107,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingTime" : "1 s 270 ms",
+      "statsPerFileType" : [ {
+        "fileType" : "XML",
+        "numberOfFiles" : 36,
+        "totalFilesSize" : "985.46 kB",
+        "partOfTotalIndexingTime" : "36.8%",
+        "partOfTotalContentLoadingTime" : "34.6%"
+      }, {
+        "fileType" : "textmate",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "924.41 kB",
+        "partOfTotalIndexingTime" : "24.1%",
+        "partOfTotalContentLoadingTime" : "2.7%"
+      }, {
+        "fileType" : "JSON",
+        "numberOfFiles" : 32,
+        "totalFilesSize" : "2.24 MB",
+        "partOfTotalIndexingTime" : "19.9%",
+        "partOfTotalContentLoadingTime" : "53.5%"
+      }, {
+        "fileType" : "Go",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "315 B",
+        "partOfTotalIndexingTime" : "6.9%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "YAML",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "483 B",
+        "partOfTotalIndexingTime" : "5.4%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "PLAIN_TEXT",
+        "numberOfFiles" : 27,
+        "totalFilesSize" : "13.08 kB",
+        "partOfTotalIndexingTime" : "3.5%",
+        "partOfTotalContentLoadingTime" : "5.1%"
+      }, {
+        "fileType" : "x86 Plan9 Assembly",
+        "numberOfFiles" : 6,
+        "totalFilesSize" : "162 B",
+        "partOfTotalIndexingTime" : "2.9%",
+        "partOfTotalContentLoadingTime" : "2.6%"
+      }, {
+        "fileType" : "Dockerfile",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "195 B",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      }, {
+        "fileType" : "Shell Script",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : "460 B",
+        "partOfTotalIndexingTime" : "< 1%",
+        "partOfTotalContentLoadingTime" : "< 1%"
+      } ],
+      "statsPerIndexer" : [ {
+        "indexId" : "TodoIndex",
+        "numberOfFiles" : 107,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "22.2%"
+      }, {
+        "indexId" : "Stubs",
+        "numberOfFiles" : 37,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "16.7%"
+      }, {
+        "indexId" : "json.file.root.values",
+        "numberOfFiles" : 32,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "14.8%"
+      }, {
+        "indexId" : "Trigram.Index",
+        "numberOfFiles" : 107,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "12.2%"
+      }, {
+        "indexId" : "fileIncludes",
+        "numberOfFiles" : 36,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "9.5%"
+      }, {
+        "indexId" : "IdIndex",
+        "numberOfFiles" : 107,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "8.3%"
+      }, {
+        "indexId" : "DomFileIndex",
+        "numberOfFiles" : 36,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "7.6%"
+      }, {
+        "indexId" : "yaml.keys.name",
+        "numberOfFiles" : 1,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "4.9%"
+      }, {
+        "indexId" : "RelaxSymbolIndex",
+        "numberOfFiles" : 36,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "3.1%"
+      } ],
+      "fastIndexers" : [ "docker.compose.services", "go.import", "go.imported.directory.names" ]
+    } ]
+  }
+}

@@ -1,9 +1,9 @@
 {
   "appInfo" : {
     "build" : "203.8084.22",
-    "buildDate" : "Thu, 22 Apr 2021 05:40:09 GMT",
+    "buildDate" : "Thu, 22 Apr 2021 05:40:05 GMT",
     "productCode" : "GO",
-    "generated" : "Thu, 12 Aug 2021 11:25:37 GMT",
+    "generated" : "Thu, 12 Aug 2021 19:38:20 GMT",
     "os" : "Linux 4.19.171",
     "runtime" : "JetBrains s.r.o. 11.0.10 11.0.10+8-b1145.96"
   },
@@ -17,13 +17,13 @@
   "projectIndexingHistory" : {
     "projectName" : "projector-user",
     "numberOfFileProviders" : 15,
-    "totalNumberOfFiles" : 1457,
-    "totalNumberOfUpToDateFiles" : 1457,
+    "totalNumberOfFiles" : 1475,
+    "totalNumberOfUpToDateFiles" : 1475,
     "times" : {
-      "totalUpdatingTime" : "132 ms",
-      "pushPropertiesTime" : "66 ms",
-      "updatingStart" : "Thu, 12 Aug 2021 11:25:37 GMT",
-      "updatingEnd" : "Thu, 12 Aug 2021 11:25:37 GMT",
+      "totalUpdatingTime" : "296 ms",
+      "pushPropertiesTime" : "211 ms",
+      "updatingStart" : "Thu, 12 Aug 2021 19:38:19 GMT",
+      "updatingEnd" : "Thu, 12 Aug 2021 19:38:20 GMT",
       "wasInterrupted" : false
     },
     "numberOfIndexingThreads" : 0,

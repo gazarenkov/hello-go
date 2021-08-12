@@ -9983,3 +9983,33 @@ com.intellij.openapi.vcs.VcsException: failed to read object ba0aebc21a77f3f203b
 	at java.base/java.security.AccessController.doPrivileged(Native Method)
 	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-08-12 19:36:06,029 [    214]   INFO -        #com.intellij.idea.Main - JRE: 11.0.10+8-b1145.96 (JetBrains s.r.o.) 
+2021-08-12 19:36:06,030 [    215]   INFO -        #com.intellij.idea.Main - JVM: 11.0.10+8-b1145.96 (OpenJDK 64-Bit Server VM) 
+2021-08-12 19:36:06,032 [    217]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=512m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -ea -Dsun.io.useCanonCaches=false -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/projector-user/java_error_in_goland_%p.log -XX:HeapDumpPath=/home/projector-user/java_error_in_goland_.hprof -Didea.vendor.name=JetBrains -Didea.paths.selector=GoLand2020.3 -Djb.vmOptionsFile=/projector/ide/bin/goland64.vmoptions -Didea.platform.prefix=GoLand -Dorg.jetbrains.projector.server.classToLaunch=com.intellij.idea.Main 
+2021-08-12 19:36:06,033 [    218]   INFO -        #com.intellij.idea.Main - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib 
+2021-08-12 19:36:06,038 [    223]   INFO -        #com.intellij.idea.Main - boot library path: /projector/ide/jbr/lib 
+2021-08-12 19:36:06,129 [    314]   INFO -        #com.intellij.idea.Main - locale=en JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/home/projector-user/.config/JetBrains/GoLand2020.3
+  idea.system.path=/home/projector-user/.cache/JetBrains/GoLand2020.3
+  idea.plugins.path=/home/projector-user/.local/share/JetBrains/GoLand2020.3
+  idea.log.path=/home/projector-user/.cache/JetBrains/GoLand2020.3/log 
+2021-08-12 19:36:06,372 [    557]   WARN -  #com.intellij.idea.SocketLock - /home/projector-user/.cache/JetBrains/GoLand2020.3/token: Operation not permitted 
+java.nio.file.FileSystemException: /home/projector-user/.cache/JetBrains/GoLand2020.3/token: Operation not permitted
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(UnixFileAttributeViews.java:254)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(UnixFileAttributeViews.java:276)
+	at com.intellij.idea.SocketLock.lambda$lockAndTryActivate$2(SocketLock.java:182)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-08-12 19:36:06,756 [    941]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 624 ms 
+2021-08-12 19:36:07,385 [   1570]   INFO -        #com.intellij.idea.Main - CPU cores: 1; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@3ee4c5b4[Running, parallelism = 1, size = 1, active = 0, running = 0, steals = 5, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@6bb58713 
+2021-08-12 19:36:07,526 [   1711]   INFO -        #com.intellij.idea.Main - WM detected: null 
+2021-08-12 19:36:08,390 [   2575]   INFO -        #com.intellij.idea.Main - Importing configs to /home/projector-user/.config/JetBrains/GoLand2020.3 

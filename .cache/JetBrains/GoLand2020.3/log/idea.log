@@ -5609,3 +5609,118 @@ com.intellij.openapi.vcs.VcsException: failed to read object 3224101a56a3f53912f
 	at java.base/java.security.AccessController.doPrivileged(Native Method)
 	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-08-12 14:20:00,103 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-08-12 14:20:00,217 [    114]   INFO - llij.ide.gdpr.EndUserAgreement - eua: /home/projector-user/.local/share/JetBrains/PrivacyPolicy/eua.cached 
+2021-08-12 14:20:00,415 [    312]   INFO -        #com.intellij.idea.Main - IDE: GoLand (build #GO-203.8084.22, 22 Apr 2021 05:40) 
+2021-08-12 14:20:00,420 [    317]   INFO -        #com.intellij.idea.Main - OS: Linux (4.19.171, amd64) 
+2021-08-12 14:20:00,429 [    326]   INFO -        #com.intellij.idea.Main - JRE: 11.0.10+8-b1145.96 (JetBrains s.r.o.) 
+2021-08-12 14:20:00,429 [    326]   INFO -        #com.intellij.idea.Main - JVM: 11.0.10+8-b1145.96 (OpenJDK 64-Bit Server VM) 
+2021-08-12 14:20:00,435 [    332]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=512m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -ea -Dsun.io.useCanonCaches=false -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/projector-user/java_error_in_goland_%p.log -XX:HeapDumpPath=/home/projector-user/java_error_in_goland_.hprof -Didea.vendor.name=JetBrains -Didea.paths.selector=GoLand2020.3 -Djb.vmOptionsFile=/projector/ide/bin/goland64.vmoptions -Didea.platform.prefix=GoLand -Dorg.jetbrains.projector.server.classToLaunch=com.intellij.idea.Main 
+2021-08-12 14:20:00,435 [    332]   INFO -        #com.intellij.idea.Main - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib 
+2021-08-12 14:20:00,436 [    333]   INFO -        #com.intellij.idea.Main - boot library path: /projector/ide/jbr/lib 
+2021-08-12 14:20:00,522 [    419]   INFO -        #com.intellij.idea.Main - locale=en JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/home/projector-user/.config/JetBrains/GoLand2020.3
+  idea.system.path=/home/projector-user/.cache/JetBrains/GoLand2020.3
+  idea.plugins.path=/home/projector-user/.local/share/JetBrains/GoLand2020.3
+  idea.log.path=/home/projector-user/.cache/JetBrains/GoLand2020.3/log 
+2021-08-12 14:20:00,778 [    675]   WARN -  #com.intellij.idea.SocketLock - /home/projector-user/.cache/JetBrains/GoLand2020.3/token: Operation not permitted 
+java.nio.file.FileSystemException: /home/projector-user/.cache/JetBrains/GoLand2020.3/token: Operation not permitted
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(UnixFileAttributeViews.java:254)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(UnixFileAttributeViews.java:276)
+	at com.intellij.idea.SocketLock.lambda$lockAndTryActivate$2(SocketLock.java:182)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-08-12 14:20:01,275 [   1172]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 752 ms 
+2021-08-12 14:20:03,575 [   3472]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 1; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@4917aabd[Running, parallelism = 1, size = 1, active = 0, running = 0, steals = 6, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@173a6bdf 
+2021-08-12 14:20:03,648 [   3545]   INFO - ntellij.idea.ApplicationLoader - WM detected: null 
+2021-08-12 14:20:03,674 [   3571]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE (203.8084.22), com.intellij.platform.images (203.8084.22), HTML Tools (203.8084.22), Refactor-X (203.8084.22), IDE Settings Sync (203.8084.22), Machine Learning Code Completion (203.8084.22), Configuration Script (203.8084.22), Copyright (203.8084.22), UML (203.8084.22), Performance Testing (203.8084.22), FTP/SFTP Connectivity (ex. Remote Hosts Access) (203.8084.22), File Watchers (203.8084.22), CSS (203.8084.22), Mercurial (203.8084.22), EditorConfig (203.8084.22), Emoji Picker (203.8084.22), Go Template (203.8084.22), Terminal (203.8084.22), Git (203.8084.22), GitHub (203.8084.22), Shared Indexes (203.8084.22), SSH Remote Run (203.8084.22), Shell Script (203.8084.22), TextMate Bundles (203.8084.22), YAML (203.8084.22), Docker (203.8084.22), IDE Features Trainer (203.8084.22), IntelliLang (203.8084.22), Markdown (203.8084.22), Grazie (203.8084.22), JavaScript and TypeScript (203.8084.22), JavaScript Intention Power Pack (203.8084.22), JavaScript Debugger (203.8084.22), TSLint (203.8084.22), Database Tools and SQL (203.8084.22), HTTP Client (203.8084.22), Go (203.8084.22), Go IDE (203.8084.22), Shared Indexes for Go (203.8084.22) 
+2021-08-12 14:20:03,952 [   3849]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2021-08-12 14:20:03,978 [   3875]   INFO -                         STDOUT - [DEBUG] :: IdeState :: "search for editors" is done 
+2021-08-12 14:20:04,169 [   4066]   INFO -                         STDOUT - [DEBUG] :: util.agent.MiscKt :: dynamically attaching agent: jar=/tmp/projector-agent2884711316166321564.jar, args=isAgent=false;ijClProviderClass=org.jetbrains.projector.server.core.ij.IjInjectorAgentInitializer$IjInjectorAgentClassLoaders;ijClProviderMethod=getIdeClassloader;prjClProviderMethod=getProjectorClassloader;mdPanelMakerClass=org.jetbrains.projector.server.core.ij.md.MarkdownPanelMaker;mdPanelMakerMethod=createMarkdownHtmlPanel 
+2021-08-12 14:20:04,552 [   4449]   INFO -                         STDOUT - [DEBUG] :: IjInjectorAgent :: IjInjectorAgent agentmain start, args=isAgent=false;ijClProviderClass=org.jetbrains.projector.server.core.ij.IjInjectorAgentInitializer$IjInjectorAgentClassLoaders;ijClProviderMethod=getIdeClassloader;prjClProviderMethod=getProjectorClassloader;mdPanelMakerClass=org.jetbrains.projector.server.core.ij.md.MarkdownPanelMaker;mdPanelMakerMethod=createMarkdownHtmlPanel 
+2021-08-12 14:20:04,615 [   4512]   INFO -                         STDOUT - [DEBUG] :: IjLigaturesDisablerTransformer :: agentmain start 
+2021-08-12 14:20:04,673 [   4570]   INFO -                         STDOUT - [DEBUG] :: IjLigaturesDisablerTransformer :: Transforming fontprefs... 
+2021-08-12 14:20:04,688 [   4585]   WARN - pi.util.registry.RegistryValue - Attempt to load key 'lcd.contrast.value' for not yet loaded registry 
+2021-08-12 14:20:04,714 [   4611]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2021-08-12 14:20:04,734 [   4631]   INFO -                         STDOUT - [DEBUG] :: SettingsInitializer :: Found IDEA aa: LCD HRGB antialiasing text mode 
+2021-08-12 14:20:04,734 [   4631]   INFO - cation.options.RegistryManager - Registry values changed by user: suggest.all.run.configurations.from.context = true 
+2021-08-12 14:20:04,745 [   4642]   INFO -                         STDOUT - [DEBUG] :: IdeState :: "initialize IDEA: fix AA and disable smooth scrolling (at start)" is done 
+2021-08-12 14:20:04,827 [   4724]   INFO - intellij.diagnostic.JitWatcher - JIT compilation state checking enabled 
+2021-08-12 14:20:05,030 [   4927]   INFO -                         STDOUT - [DEBUG] :: IjLigaturesDisablerTransformer :: agentmain finish 
+2021-08-12 14:20:05,051 [   4948]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=721 
+2021-08-12 14:20:05,052 [   4949]   INFO -                         STDOUT - [DEBUG] :: IjMdTransformer :: IjMdTransformer agentmain start 
+2021-08-12 14:20:05,077 [   4974]   INFO -                         STDOUT - [INFO] :: IjMdTransformer :: Class retransform error :: java.lang.ClassNotFoundException: org.intellij.plugins.markdown.ui.preview.javafx.JavaFxHtmlPanelProvider PluginClassLoader[PluginDescriptor(name=Markdown, id=org.intellij.plugins.markdown, path=/projector/ide/plugins/markdown, version=203.8084.22)] com.intellij.ide.plugins.cl.PluginClassLoader@3f223cd8 
+2021-08-12 14:20:05,077 [   4974]   INFO -                         STDOUT - 	at com.intellij.ide.plugins.cl.PluginClassLoader.loadClass(PluginClassLoader.java:129) 
+2021-08-12 14:20:05,077 [   4974]   INFO -                         STDOUT - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522) 
+2021-08-12 14:20:05,077 [   4974]   INFO -                         STDOUT - 	at java.base/java.lang.Class.forName0(Native Method) 
+2021-08-12 14:20:05,078 [   4975]   INFO -                         STDOUT - 	at java.base/java.lang.Class.forName(Class.java:398) 
+2021-08-12 14:20:05,078 [   4975]   INFO -                         STDOUT - 	at org.jetbrains.projector.agent.ijInjector.IjMdTransformer$Companion.agentmain(IjMdTransformer.kt:156) 
+2021-08-12 14:20:05,078 [   4975]   INFO -                         STDOUT - 	at org.jetbrains.projector.agent.ijInjector.IjInjector.agentmain(IjInjector.kt:57) 
+2021-08-12 14:20:05,078 [   4975]   INFO -                         STDOUT - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) 
+2021-08-12 14:20:05,078 [   4975]   INFO -                         STDOUT - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) 
+2021-08-12 14:20:05,078 [   4975]   INFO -                         STDOUT - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) 
+2021-08-12 14:20:05,078 [   4975]   INFO -                         STDOUT - 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) 
+2021-08-12 14:20:05,078 [   4975]   INFO -                         STDOUT - 	at org.jetbrains.projector.agent.ijInjector.IjInjectorAgent.agentmain(IjInjectorAgent.kt:62) 
+2021-08-12 14:20:05,078 [   4975]   INFO -                         STDOUT - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) 
+2021-08-12 14:20:05,078 [   4975]   INFO -                         STDOUT - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) 
+2021-08-12 14:20:05,078 [   4975]   INFO -                         STDOUT - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) 
+2021-08-12 14:20:05,079 [   4976]   INFO -                         STDOUT - 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) 
+2021-08-12 14:20:05,079 [   4976]   INFO -                         STDOUT - 	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513) 
+2021-08-12 14:20:05,079 [   4976]   INFO -                         STDOUT - 	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallAgentmain(InstrumentationImpl.java:535) 
+2021-08-12 14:20:05,079 [   4976]   INFO -                         STDOUT -  
+2021-08-12 14:20:05,079 [   4976]   INFO -                IjMdTransformer - Class retransform error 
+java.lang.ClassNotFoundException: org.intellij.plugins.markdown.ui.preview.javafx.JavaFxHtmlPanelProvider PluginClassLoader[PluginDescriptor(name=Markdown, id=org.intellij.plugins.markdown, path=/projector/ide/plugins/markdown, version=203.8084.22)] com.intellij.ide.plugins.cl.PluginClassLoader@3f223cd8
+	at com.intellij.ide.plugins.cl.PluginClassLoader.loadClass(PluginClassLoader.java:129)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.jetbrains.projector.agent.ijInjector.IjMdTransformer$Companion.agentmain(IjMdTransformer.kt:156)
+	at org.jetbrains.projector.agent.ijInjector.IjInjector.agentmain(IjInjector.kt:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jetbrains.projector.agent.ijInjector.IjInjectorAgent.agentmain(IjInjectorAgent.kt:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallAgentmain(InstrumentationImpl.java:535)
+2021-08-12 14:20:05,085 [   4982]   INFO -                         STDOUT - [DEBUG] :: IjMdTransformer :: Transforming MdHtmlPanelProvider (JCEF Browser)... 
+2021-08-12 14:20:05,097 [   4994]   INFO - tellij.util.io.FileChannelUtil - uninterruptible FileChannels will be used for indexes 
+2021-08-12 14:20:05,141 [   5038]   INFO -                         STDOUT - [DEBUG] :: IdeState :: "Getting IDE colors" is done 
+2021-08-12 14:20:05,296 [   5193]   INFO -                         STDOUT - [DEBUG] :: IjMdTransformer :: IjMdTransformer agentmain finish 
+2021-08-12 14:20:05,303 [   5200]   INFO -                         STDOUT - [DEBUG] :: IjBrowserUtilTransformer :: agentmain start 
+2021-08-12 14:20:05,321 [   5218]   INFO -                         STDOUT - [DEBUG] :: IjBrowserUtilTransformer :: Transforming BrowserUtil... 
+2021-08-12 14:20:05,467 [   5364]   INFO -                         STDOUT - [DEBUG] :: IjBrowserUtilTransformer :: Transforming BrowserUtil... 
+2021-08-12 14:20:05,508 [   5405]   INFO -                         STDOUT - [DEBUG] :: IjBrowserUtilTransformer :: agentmain finish 
+2021-08-12 14:20:05,509 [   5406]   INFO -                         STDOUT - [DEBUG] :: IjInjectorAgent :: IjInjectorAgent agentmain finish 
+2021-08-12 14:20:05,520 [   5417]   INFO -                         STDOUT - [DEBUG] :: util.agent.MiscKt :: dynamically attaching agent is done: jar=/tmp/projector-agent2884711316166321564.jar, args=isAgent=false;ijClProviderClass=org.jetbrains.projector.server.core.ij.IjInjectorAgentInitializer$IjInjectorAgentClassLoaders;ijClProviderMethod=getIdeClassloader;prjClProviderMethod=getProjectorClassloader;mdPanelMakerClass=org.jetbrains.projector.server.core.ij.md.MarkdownPanelMaker;mdPanelMakerMethod=createMarkdownHtmlPanel 
+2021-08-12 14:20:05,520 [   5417]   INFO -                         STDOUT - [DEBUG] :: IdeState :: "attach IJ injector agent" is done 
+2021-08-12 14:20:05,638 [   5535]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2021-08-12 14:20:06,351 [   6248]   INFO - penapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, inline.browse.button, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, copy.reference.popup, i18n.match.actions, editor.reader.mode, edit.run.configurations.while.dumb, new.large.text.file.viewer 
+2021-08-12 14:20:06,357 [   6254]   INFO - penapi.wm.impl.GlobalMenuLinux - disable global-menu integration because some of shared libraries isn't installed: java.lang.UnsatisfiedLinkError: /projector/ide/bin/libdbm64.so: libglib-2.0.so.0: cannot open shared object file: No such file or directory 
+2021-08-12 14:20:06,417 [   6314]   INFO - BridgeProjectLifecycleListener - Using workspace model to open project 
+2021-08-12 14:20:06,830 [   6727]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-08-12 14:20:06,845 [   6742]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
+2021-08-12 14:20:06,845 [   6742]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
+2021-08-12 14:20:06,845 [   6742]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-08-12 14:20:06,918 [   6815]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: HtmlTools] 
+2021-08-12 14:20:07,023 [   6920]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /projector/ide/bin/fsnotifier64 
+2021-08-12 14:20:07,030 [   6927]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github] 
+2021-08-12 14:20:07,063 [   6960]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: JavaScript] 
+2021-08-12 14:20:07,063 [   6960]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: JavaScript] 
+2021-08-12 14:20:07,066 [   6963]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2021-08-12 14:20:07,925 [   7822]   INFO - on.JpsProjectModelSynchronizer - Workspace model loaded without cache. Loading real project state into workspace model. Thread[ApplicationImpl pooled thread 4,4,Idea Thread Group] 
+2021-08-12 14:20:08,493 [   8390]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2021-08-12 14:20:08,646 [   8543]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/projector-user] 

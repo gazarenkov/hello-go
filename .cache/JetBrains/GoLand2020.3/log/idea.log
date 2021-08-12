@@ -6336,3 +6336,7 @@ com.intellij.openapi.vcs.VcsException: failed to read object cedcd3e6c27c2de1bb6
 	at java.base/java.security.AccessController.doPrivileged(Native Method)
 	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-08-12 14:25:13,730 [ 313627]   INFO - llij.ide.gdpr.EndUserAgreement - eua: /home/projector-user/.local/share/JetBrains/PrivacyPolicy/eua.cached 
+2021-08-12 14:25:17,865 [ 317762]   INFO -                         STDOUT - [INFO] :: ProjectorServer :: 172.17.0.1 connected. 
+2021-08-12 14:25:18,912 [ 318809]   INFO -                         STDOUT - [DEBUG] :: IdeState :: Starting attempts to set keymap to match user's OS (MAC) 
+2021-08-12 14:25:18,914 [ 318811]   INFO -                         STDOUT - [DEBUG] :: IdeState :: "set keymap to match user's OS (MAC)" is done 

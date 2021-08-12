@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
-<map MAP_XML_VERSION="1.0"/>
+<map MAP_XML_VERSION="1.0">
+  <entry key="device_id" value="1208213ba0e4c71-b4ec-42be-890c-243330b22caf"/>
+  <entry key="feature_usage_event_log_salt" value="tEjnq9skJ/yXMvQRwwq+SYXvY1jEJOjnuw23kxz/5Ng="/>
+  <entry key="user_id_on_machine" value="4e274e96-798c-4973-9a0d-145723ce6737"/>
+</map>

@@ -1,0 +1,74 @@
+{
+  "appInfo" : {
+    "build" : "203.8084.22",
+    "buildDate" : "Thu, 22 Apr 2021 05:40:43 GMT",
+    "productCode" : "GO",
+    "generated" : "Thu, 12 Aug 2021 12:52:10 GMT",
+    "os" : "Linux 4.19.171",
+    "runtime" : "JetBrains s.r.o. 11.0.10 11.0.10+8-b1145.96"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 777715712,
+    "numberOfProcessors" : 1,
+    "maxNumberOfIndexingThreads" : 4,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "projectIndexingHistory" : {
+    "projectName" : "projector-user",
+    "numberOfFileProviders" : 14,
+    "totalNumberOfFiles" : 1461,
+    "totalNumberOfUpToDateFiles" : 1460,
+    "times" : {
+      "totalUpdatingTime" : "4 s 579 ms",
+      "indexingTime" : "1 s 336 ms",
+      "pushPropertiesTime" : "2 s 32 ms",
+      "updatingStart" : "Thu, 12 Aug 2021 12:52:05 GMT",
+      "updatingEnd" : "Thu, 12 Aug 2021 12:52:10 GMT",
+      "wasInterrupted" : false
+    },
+    "numberOfIndexingThreads" : 1,
+    "totalStatsPerFileType" : [ {
+      "fileType" : "JSON",
+      "partOfTotalIndexingTime" : "100.0%",
+      "partOfTotalContentLoadingTime" : "100.0%",
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : "121.17 kB",
+      "indexingSpeed" : "2.53 MB/s",
+      "biggestContributors" : [ {
+        "providerName" : "Module 'projector-user'",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "121.17 kB",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    } ],
+    "totalStatsPerIndexer" : [ {
+      "indexId" : "json.file.root.values",
+      "partOfTotalIndexingTime" : "100.0%",
+      "totalNumberOfFiles" : 1,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : "121.17 kB",
+      "indexingSpeed" : "2.53 MB/s"
+    } ],
+    "fileProviderStatistics" : [ {
+      "providerName" : "Module 'projector-user'",
+      "totalNumberOfFiles" : 1,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingTime" : "1 s 301 ms",
+      "statsPerFileType" : [ {
+        "fileType" : "JSON",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "121.17 kB",
+        "partOfTotalIndexingTime" : "100.0%",
+        "partOfTotalContentLoadingTime" : "100.0%"
+      } ],
+      "statsPerIndexer" : [ {
+        "indexId" : "json.file.root.values",
+        "numberOfFiles" : 1,
+        "numberOfFilesIndexedByExtensions" : 0,
+        "partOfTotalIndexingTime" : "100.0%"
+      } ],
+      "fastIndexers" : [ ]
+    } ]
+  }
+}

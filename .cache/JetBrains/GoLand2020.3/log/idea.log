@@ -11368,3 +11368,37 @@ com.intellij.openapi.vcs.VcsException: failed to read object 58f2f22e25a3a4724d4
 	at java.base/java.security.AccessController.doPrivileged(Native Method)
 	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-08-13 11:53:59,618 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-08-13 11:53:59,631 [     13]   INFO - llij.ide.gdpr.EndUserAgreement - eua: /home/projector-user/.local/share/JetBrains/PrivacyPolicy/eua.cached 
+2021-08-13 11:53:59,761 [    143]   INFO -        #com.intellij.idea.Main - IDE: GoLand (build #GO-203.8084.22, 22 Apr 2021 05:40) 
+2021-08-13 11:53:59,763 [    145]   INFO -        #com.intellij.idea.Main - OS: Linux (4.19.171, amd64) 
+2021-08-13 11:53:59,769 [    151]   INFO -        #com.intellij.idea.Main - JRE: 11.0.10+8-b1145.96 (JetBrains s.r.o.) 
+2021-08-13 11:53:59,770 [    152]   INFO -        #com.intellij.idea.Main - JVM: 11.0.10+8-b1145.96 (OpenJDK 64-Bit Server VM) 
+2021-08-13 11:53:59,773 [    155]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=512m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -ea -Dsun.io.useCanonCaches=false -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/projector-user/java_error_in_goland_%p.log -XX:HeapDumpPath=/home/projector-user/java_error_in_goland_.hprof -Didea.vendor.name=JetBrains -Didea.paths.selector=GoLand2020.3 -Djb.vmOptionsFile=/home/projector-user/.config/JetBrains/GoLand2020.3/goland64.vmoptions -Didea.platform.prefix=GoLand -Dorg.jetbrains.projector.server.classToLaunch=com.intellij.idea.Main 
+2021-08-13 11:53:59,774 [    156]   INFO -        #com.intellij.idea.Main - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib 
+2021-08-13 11:53:59,783 [    165]   INFO -        #com.intellij.idea.Main - boot library path: /projector/ide/jbr/lib 
+2021-08-13 11:53:59,938 [    320]   INFO -        #com.intellij.idea.Main - locale=en JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/home/projector-user/.config/JetBrains/GoLand2020.3
+  idea.system.path=/home/projector-user/.cache/JetBrains/GoLand2020.3
+  idea.plugins.path=/home/projector-user/.local/share/JetBrains/GoLand2020.3
+  idea.log.path=/home/projector-user/.cache/JetBrains/GoLand2020.3/log 
+2021-08-13 11:54:00,263 [    645]   WARN -  #com.intellij.idea.SocketLock - /home/projector-user/.cache/JetBrains/GoLand2020.3/token: Operation not permitted 
+java.nio.file.FileSystemException: /home/projector-user/.cache/JetBrains/GoLand2020.3/token: Operation not permitted
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(UnixFileAttributeViews.java:254)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(UnixFileAttributeViews.java:276)
+	at com.intellij.idea.SocketLock.lambda$lockAndTryActivate$2(SocketLock.java:182)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-08-13 11:54:00,431 [    813]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 483 ms 
+2021-08-13 11:54:01,326 [   1708]   INFO -                         STDOUT - [INFO] :: ProjectorServer :: 172.17.0.1 connected. 
+2021-08-13 11:54:01,413 [   1795]   INFO -        #com.intellij.idea.Main - CPU cores: 1; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@1389dd93[Running, parallelism = 1, size = 1, active = 0, running = 0, steals = 4, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@86f65f7 
+2021-08-13 11:54:01,565 [   1947]   INFO -        #com.intellij.idea.Main - WM detected: null 

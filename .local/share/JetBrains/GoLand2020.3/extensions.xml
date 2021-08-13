@@ -5882,6 +5882,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.excalidraw.png">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.github.bric3.excalidraw" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.excalidraw.svg">
       <plugins>
         <option name="myPlugins">
@@ -6178,6 +6192,20 @@
           <set>
             <plugin>
               <option name="myPluginId" value="com.fatfractal.plugins.idea.ffdl" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.fidl">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="fuchsia.developer.plugin.fidl" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />

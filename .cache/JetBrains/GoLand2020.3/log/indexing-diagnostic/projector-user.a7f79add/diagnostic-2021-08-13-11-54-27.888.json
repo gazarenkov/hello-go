@@ -1,9 +1,9 @@
 {
   "appInfo" : {
     "build" : "203.8084.22",
-    "buildDate" : "Thu, 22 Apr 2021 05:40:43 GMT",
+    "buildDate" : "Thu, 22 Apr 2021 05:40:59 GMT",
     "productCode" : "GO",
-    "generated" : "Thu, 12 Aug 2021 12:52:10 GMT",
+    "generated" : "Fri, 13 Aug 2021 11:54:27 GMT",
     "os" : "Linux 4.19.171",
     "runtime" : "JetBrains s.r.o. 11.0.10 11.0.10+8-b1145.96"
   },
@@ -17,14 +17,14 @@
   "projectIndexingHistory" : {
     "projectName" : "projector-user",
     "numberOfFileProviders" : 14,
-    "totalNumberOfFiles" : 1461,
-    "totalNumberOfUpToDateFiles" : 1460,
+    "totalNumberOfFiles" : 1476,
+    "totalNumberOfUpToDateFiles" : 1475,
     "times" : {
-      "totalUpdatingTime" : "4 s 579 ms",
-      "indexingTime" : "1 s 336 ms",
-      "pushPropertiesTime" : "2 s 32 ms",
-      "updatingStart" : "Thu, 12 Aug 2021 12:52:05 GMT",
-      "updatingEnd" : "Thu, 12 Aug 2021 12:52:10 GMT",
+      "totalUpdatingTime" : "3 s 213 ms",
+      "indexingTime" : "1 s 671 ms",
+      "pushPropertiesTime" : "669 ms",
+      "updatingStart" : "Fri, 13 Aug 2021 11:54:24 GMT",
+      "updatingEnd" : "Fri, 13 Aug 2021 11:54:27 GMT",
       "wasInterrupted" : false
     },
     "numberOfIndexingThreads" : 1,
@@ -33,12 +33,12 @@
       "partOfTotalIndexingTime" : "100.0%",
       "partOfTotalContentLoadingTime" : "100.0%",
       "totalNumberOfFiles" : 1,
-      "totalFilesSize" : "121.17 kB",
-      "indexingSpeed" : "2.53 MB/s",
+      "totalFilesSize" : "121.3 kB",
+      "indexingSpeed" : "8.85 MB/s",
       "biggestContributors" : [ {
         "providerName" : "Module 'projector-user'",
         "numberOfFiles" : 1,
-        "totalFilesSize" : "121.17 kB",
+        "totalFilesSize" : "121.3 kB",
         "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
       } ]
     } ],
@@ -47,18 +47,18 @@
       "partOfTotalIndexingTime" : "100.0%",
       "totalNumberOfFiles" : 1,
       "totalNumberOfFilesIndexedByExtensions" : 0,
-      "totalFilesSize" : "121.17 kB",
-      "indexingSpeed" : "2.53 MB/s"
+      "totalFilesSize" : "121.3 kB",
+      "indexingSpeed" : "8.85 MB/s"
     } ],
     "fileProviderStatistics" : [ {
       "providerName" : "Module 'projector-user'",
       "totalNumberOfFiles" : 1,
       "totalNumberOfFilesFullyIndexedByExtensions" : 0,
-      "totalIndexingTime" : "1 s 301 ms",
+      "totalIndexingTime" : "1 s 650 ms",
       "statsPerFileType" : [ {
         "fileType" : "JSON",
         "numberOfFiles" : 1,
-        "totalFilesSize" : "121.17 kB",
+        "totalFilesSize" : "121.3 kB",
         "partOfTotalIndexingTime" : "100.0%",
         "partOfTotalContentLoadingTime" : "100.0%"
       } ],
